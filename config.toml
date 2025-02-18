@@ -1,0 +1,15 @@
+[model]
+MODEL_NAME = "facebook/opt-1.3b"
+USE_QUANTIZATION = true
+
+[api]
+API_HOST = "0.0.0.0"
+API_PORT = 8000
+
+[evaluation]
+MAX_GENERATION_LENGTH = 50
+FORGET_THRESHOLD = 0.7
+
+[logging]
+LOG_FILE = "app.log"
+LOG_LEVEL = "DEBUG"
